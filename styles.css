@@ -111,6 +111,10 @@ img {
     background-color: rgba(255, 246, 13, 0.65);
 }
 
+.dot.purple {
+    background-color: rgba(118, 8, 133, 0.65);
+}
+
 .dot.crosswalk {
     top: 90%;
     left: 12%;
@@ -127,6 +131,12 @@ img {
     top: 89%;
     left: 85%;
     transform: translate(-85%, -89%);
+}
+
+.dot.leaves {
+    top: 89%;
+    left: 85%;
+    transform: translate(-85%, -89%)
 }
 
 /*********************************
