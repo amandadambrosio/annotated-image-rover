@@ -107,7 +107,8 @@ img {
 }
 
 .dot.yellow {
-    background-color: rgba(255, 246, 13, 0.65)
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 246, 13, 0.65);
 }
 
 .dot.crosswalk {
@@ -123,9 +124,9 @@ img {
 }
 
 .dot.trunk {
-    top: 85%;
-    left: 80%;
-    transform: translate(-80%, -85%);
+    top: 89%;
+    left: 85%;
+    transform: translate(-85%, -89%);
 }
 
 /*********************************
