@@ -100,19 +100,28 @@ img {
 ******************************/
 .dot.red {
     background-color: rgba(255, 8, 13, 0.65);
+    font-size: 24px;
 }
 
 .dot.blue {
     background-color: rgba(0, 93, 255, 0.65);
+    font-size: 24px;
 }
 
 .dot.yellow {
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 246, 13, 0.65);
+    font-size: 24px;
 }
 
 .dot.purple {
     background-color: rgba(118, 8, 133, 0.65);
+    font-size: 24px;
+}
+
+.dot.pink {
+    background-color: rgba(255, 8, 133, 0.65);
+    font-size: 24px;
 }
 
 .dot.crosswalk {
@@ -134,9 +143,15 @@ img {
 }
 
 .dot.leaves {
-    top: 89%;
-    left: 85%;
-    transform: translate(-85%, -89%)
+    top: 70%;
+    left: 78%;
+    transform: translate(-78%, -70%);
+}
+
+.dot.bark {
+    top: 75%;
+    left: 19%;
+    transform: translate(-19%, -75%);
 }
 
 /*********************************
