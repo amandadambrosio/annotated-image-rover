@@ -98,34 +98,60 @@ img {
 /*****************************
 * Dot customizations go here
 ******************************/
-.dot.orange {
-    background-color: rgba(255, 133, 25, 0.65);
+.dot.red {
+    background-color: rgba(255, 8, 13, 0.65);
+    font-size: 24px;
 }
 
 .dot.blue {
     background-color: rgba(0, 93, 255, 0.65);
+    font-size: 24px;
 }
 
-.dot.green {
-    background-color: rgba(12, 232, 196, 0.65)
+.dot.yellow {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 246, 13, 0.65);
+    font-size: 24px;
 }
 
-.dot.wheels {
+.dot.purple {
+    background-color: rgba(118, 8, 133, 0.65);
+    font-size: 24px;
+}
+
+.dot.pink {
+    background-color: rgba(255, 8, 133, 0.65);
+    font-size: 24px;
+}
+
+.dot.crosswalk {
+    top: 90%;
+    left: 12%;
+    transform: translate(-12%, -90%);
+}
+
+.dot.branch {
+    top: 25%;
+    left: 55%;
+    transform: translate(-55%, -25%);
+}
+
+.dot.trunk {
+    top: 89%;
+    left: 85%;
+    transform: translate(-85%, -89%);
+}
+
+.dot.leaves {
     top: 70%;
-    left: 57%;
-    transform: translate(-57%, -70%)
+    left: 78%;
+    transform: translate(-78%, -70%);
 }
 
-.dot.camera {
-    top: 15%;
-    left: 35%;
-    transform: translate(-35%, -15%);
-}
-
-.dot.solar {
-    top: 53%;
-    left: 25%;
-    transform: translate(-25%, -53%);
+.dot.bark {
+    top: 75%;
+    left: 19%;
+    transform: translate(-19%, -75%);
 }
 
 /*********************************
